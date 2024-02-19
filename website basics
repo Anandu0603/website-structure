@@ -1,0 +1,68 @@
+<html>
+    <html lang="en">
+    <head>
+        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widt=device-width,initial-scale=1.0">
+    <title>My simple Homepage</title>
+    <style>
+        body
+            {
+                background-image:url("a.jepg");
+                font-family:Areial,Arial, sans-serif;
+                margin:0;
+                padding:0;
+                background-color: #696161;
+                
+            header
+            {
+                background-color:#333;
+                color:beige;
+                padding: 20px 0;
+                text-align: center;
+            }
+            nav{
+                background-color:aqua;
+                color:black;
+                text-align: center;
+                padding:0 10px;
+            }
+            nav a:hover
+            {
+                text-decoration: underline;
+            }
+            section {
+                padding: 20px;
+            }
+            footer{
+                background-color:black;
+                color:bisque;
+                text-align: center;
+                padding: 10px 0;
+                position: fixed;
+                bottom:0;
+                width:100%;
+            }
+            
+            </style>
+            </head>
+            <body>
+                
+                <header>
+                    <h1>Welcome to my simple homepage</h1>
+                    </header>
+                    <nav>
+                        <a href="home">Home</a>
+                        <a href="home">About</a>
+                        <a href="contact">Contact</a>
+                        </nav>
+                     <section>
+                        <h2>About Us</h2>
+                         <p>This is a simple home page created using HTML.It serves as an example for begginers.</p>
+                         </section>
+                         <footer>
+                            <p>&copy;2024 My simple Homepage.All rights reserved</p>
+                            </footer>
+                            </body>
+                            </html>
+            
